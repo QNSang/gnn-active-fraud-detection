@@ -1,0 +1,21 @@
+seed: 42
+output_dir: outputs/runs/gnn
+
+dataset:
+  name: bitcoinheist
+  csv_path: data/raw/BitcoinHeistData.csv
+  train_end_year: 2015
+  val_end_year: 2016
+  max_temporal_gap: 30
+
+model:
+  name: graphsage
+  params:
+    hidden_channels: 128
+    dropout: 0.2
+
+trainer:
+  lr: 0.001
+  epochs: 20
+  patience: 10
+  device: cpu

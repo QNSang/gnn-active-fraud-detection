@@ -1,1 +1,5 @@
-# TODO: coreset active-learning strategy config placeholder.
+name: coreset
+initial_pool_size: 10000
+fraud_floor: 100
+query_budget: 512
+rounds: 10

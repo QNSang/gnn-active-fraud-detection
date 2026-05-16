@@ -1,1 +1,4 @@
-# TODO: MLP model config placeholder.
+name: mlp
+hidden_channels: 128
+second_hidden_channels: 64
+dropout: 0.2

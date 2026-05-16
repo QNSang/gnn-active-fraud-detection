@@ -1,0 +1,12 @@
+name: mock
+num_nodes: 300
+num_edges: 900
+num_features: 16
+num_classes: 2
+unknown_label: -1
+seed: 42
+split:
+  train_end_step: 34
+  val_start_step: 35
+  val_end_step: 40
+  test_start_step: 41

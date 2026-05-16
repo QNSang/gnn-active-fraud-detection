@@ -1,0 +1,8 @@
+seed: 42
+output_dir: data/processed/graph/bitcoinheist
+
+dataset:
+  csv_path: data/raw/BitcoinHeistData.csv
+  train_end_year: 2015
+  val_end_year: 2016
+  max_temporal_gap: 30

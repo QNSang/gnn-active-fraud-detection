@@ -1,1 +1,11 @@
-# TODO: add project dependencies.
+ipykernel
+matplotlib
+numpy
+pandas
+polars
+pyarrow
+pytest
+pyyaml
+scikit-learn
+torch
+torch-geometric

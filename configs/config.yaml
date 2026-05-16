@@ -1,1 +1,9 @@
-# TODO: project-level Hydra config placeholder.
+defaults:
+  - dataset: mock
+  - model: graphsage
+  - trainer: default
+  - al_strategy: random
+  - _self_
+
+seed: 42
+output_dir: outputs/runs
