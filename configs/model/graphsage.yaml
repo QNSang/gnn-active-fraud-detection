@@ -1,1 +1,3 @@
-# TODO: GraphSAGE model config placeholder.
+name: graphsage
+hidden_channels: 128
+dropout: 0.2

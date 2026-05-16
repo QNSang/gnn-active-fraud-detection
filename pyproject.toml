@@ -1,1 +1,22 @@
-# TODO: add project packaging/tooling config.
+[project]
+name = "gnn-active-fraud-detection"
+version = "0.1.0"
+description = "Label-efficient Bitcoin fraud detection with GNNs and active learning."
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "polars",
+    "pyarrow",
+    "pytest",
+    "pyyaml",
+    "scikit-learn",
+    "torch",
+    "torch-geometric",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

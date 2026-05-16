@@ -1,0 +1,14 @@
+seed: 42
+output_dir: outputs/runs/tabular
+
+data:
+  csv_path: data/raw/BitcoinHeistData.csv
+  train_end_year: 2015
+  val_end_year: 2016
+
+preprocessing:
+  scale_features: true
+
+model:
+  name: logreg
+  params: {}

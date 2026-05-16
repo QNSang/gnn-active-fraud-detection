@@ -1,1 +1,6 @@
 SKILL/
+__pycache__/
+data/raw/
+data/processed/
+*.pt
+*.csv
